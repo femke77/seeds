@@ -1,5 +1,7 @@
 # Tech Blog Seeding App
 
+This is a seeding application for challenge 14, tech blog app, for the Edx full stack program. 
+
 ## How to Use
 
 Put seed.js and createSeeds.js in a seeds folder for challenge 14. 
@@ -27,3 +29,17 @@ Run the seed program
 npm run seed
 ````
 
+### Heroku/Jaws
+
+To seed on heroku please install the Heroku CLI. You can enter the bash command line like this:
+````
+heroku run bash -a app-name
+````
+Then run your script again. The same date on localhost will be seeded to the JawsDB when you run
+````
+npm run seed
+````
+
+## Questions
+
+Email me directly at my bootcamp spot email or Slack me if you are in my cohort. 
