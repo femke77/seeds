@@ -35,10 +35,11 @@ To seed on heroku please install the Heroku CLI. You can enter the bash command 
 ````
 heroku run bash -a app-name
 ````
-Then run your script again. The same date on localhost will be seeded to the JawsDB when you run
+Then run your script again. The same data seeded on localhost will be seeded to the JawsDB when you run
 ````
 npm run seed
 ````
+unless you choose to run the createSeeds.js again.
 
 You can use this program for project 2 as well - just change the createSeeds code as needed for your models. 
 
