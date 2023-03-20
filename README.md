@@ -4,6 +4,11 @@ This is a seeding application for challenge 14, tech blog app, for the Edx full 
 
 ## How to Use
 
+Install fakerjs
+````
+npm i @faker-js/faker
+````
+
 Put seed.js and createSeeds.js in a seeds folder for challenge 14. 
 Add the script to the package.json
 `````
