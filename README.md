@@ -11,9 +11,9 @@ npm i @faker-js/faker
 
 Put seed.js and createSeeds.js in a seeds folder for challenge 14. 
 Add the script to the package.json
-`````
+````
 "seed": "node seeds/seed.js"
-`````
+````
 Start by updating the createSeeds.js so that the properties match your own models. 
 
 Your post content needs to be DataTypes.TEXT to hold long posts. You may want to do the same to the comment body and control its length with the seed code.
