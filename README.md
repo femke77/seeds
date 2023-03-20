@@ -42,6 +42,11 @@ npm run seed
 
 You can use this program for project 2 as well - just change the createSeeds code as needed for your models. 
 
+## Credits
+
+FakerJS https://fakerjs.dev/api/
+
+
 ## Questions
 
 Email me directly at my bootcamp spot email or Slack me if you are in my cohort. 
