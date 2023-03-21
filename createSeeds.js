@@ -3,8 +3,8 @@ const { faker } = require('@faker-js/faker');
 const path = require("path")
 
 // FOR RUNNING INSIDE THE TECHBLOG CHALLENGE
-// Run createSeeds first, then run seed. Both files must be in seeds dir
-// 
+// npm i @faker-js/faker
+// Run createSeeds first, then run seed. Both files must be in seeds dir in root of project
 
 const RANDOMUSERS = [];
 
