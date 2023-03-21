@@ -4,23 +4,26 @@ This is a seeding application for challenge 14, tech blog app, for the Edx full 
 
 ## How to Use
 
-Install fakerjs
+Install fakerjs if you haven't already. Check the package.json if you aren't sure.
 ````
 npm i @faker-js/faker
 ````
 
-Put seed.js and createSeeds.js in a seeds folder for challenge 14. 
+Create a seeds directory in the Tech Blog root folder
+
+You can either clone this repo directly into that folder, or you can copy paste seed.js and createSeeds.js into the folder.
+
 Add the script to the package.json
 ````
 "seed": "node seeds/seed.js"
 ````
 Start by updating the createSeeds.js so that the properties match your own models. 
 
-Your post content needs to be DataTypes.TEXT to hold long posts. You may want to do the same to the comment body and control its length with the seed code.
+Your post content needs to be DataTypes.TEXT to hold long posts. Do the same to the comment body and control its length with the seed code.
 
-Add date_created to both Comment and Post model so that your create dates can be randomized. If you fall back on the Sequelize timestamp createdAt, all the dates will be the date you ran the seed program. If that's ok with you then comment out the date_created properties in createSeeds.js
+Add date_created to both Comment and Post model so that your create dates can be randomized. If you fall back on the Sequelize timestamp createdAt, all the dates for the blog posts and comments will be the date you ran the seed program. If that's ok with you, comment out the date_created properties in createSeeds.js
 
-In the createSeeds.js you may make any changes to the seeds that you want. If you want more users, increase the Array length, if you want different date ranges, you can adjust that as well, anything you want can be changed.
+In the createSeeds.js you may make any changes to the seeds that you want. If you want more users, increase the Array length, if you want different date ranges, you can adjust that as well - more paragraphs, less paragraphs, shorter/longer comments, anything you want can be changed.
 
 Run the createSeeds.js
 ````
