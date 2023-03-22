@@ -1,6 +1,6 @@
 # Tech Blog Seeding App
 
-This is a seeding application for challenge 14, tech blog app, for the Edx full stack program.
+This is a seeding application for challenge 14, tech blog app, for the Edx full stack web development program.
 
 ## How to Use
 
