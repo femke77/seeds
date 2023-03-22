@@ -8,13 +8,17 @@ Create a seeds directory in the Tech Blog root folder
 
 You can either clone this repo directly into that folder, or you can copy paste seed.js and createSeeds.js into the folder.
 
-Add the script to the package.json
+Add two scripts to the package.json
 
 ```
 "create-seed": "npm i @faker-js/faker && node seeds createSeeds.js && node seeds/seed.js"
 
 ```
+and
 
+```
+"seed": "node seeds/seed.js"
+```
 Start by updating the createSeeds.js so that the properties match your own models.
 
 Your post content needs to be DataTypes.TEXT to hold long posts. Do the same to the comment body and control its length with the seed code.
@@ -23,7 +27,7 @@ Add date_created to both Comment and Post model so that your create dates can be
 
 In the createSeeds.js you may make any changes to the seeds that you want. If you want more users, increase the Array length, if you want different date ranges, you can adjust that as well - more paragraphs, less paragraphs, shorter/longer comments, anything you want can be changed.
 
-Run the seed program
+Run the seed program:
 
 ```
 npm run create-seed
@@ -38,15 +42,15 @@ To seed on heroku please install the Heroku CLI. You can enter the bash command 
 heroku run bash -a app-name
 ```
 
-Then run your script again. The same data seeded on localhost will be seeded to the JawsDB when you run
+Then run this script:
 
 ```
 npm run seed
 ```
+It will seed the same data as your localhost.
 
-unless you choose to run the createSeeds.js again.
-
-You can use this program for project 2 as well - just change the createSeeds code as needed for your models.
+## Usage
+You can use this program for project 2, or any other projects you need seed data for. See credits section for a link to the fakerjs api.
 
 ## Credits
 
