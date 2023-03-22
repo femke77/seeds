@@ -6,7 +6,7 @@ This is a seeding application for challenge 14, tech blog app, for the Edx full 
 
 Create a seeds directory in the Tech Blog root folder
 
-You can either clone this repo directly into that folder, or you can copy paste seed.js and createSeeds.js into the folder.
+You can either clone this repo directly into that folder, or you can copy/paste seed.js and createSeeds.js into the folder.
 
 Add two scripts to the package.json
 
@@ -19,6 +19,7 @@ and
 ```
 "seed": "node seeds/seed.js"
 ```
+
 Start by updating the createSeeds.js so that the properties match your own models.
 
 Your post content needs to be DataTypes.TEXT to hold long posts. Do the same to the comment body and control its length with the seed code.
