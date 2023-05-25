@@ -27,8 +27,8 @@ const POSTS = [];
 
 function createRandomPost() {
     return {
-        post_title: faker.lorem.words(Math.ceil(Math.random() * 5)),
-        post_description: faker.lorem.paragraphs(Math.ceil(Math.random() * 4)),
+        title: faker.lorem.words(Math.ceil(Math.random() * 5)),
+        content: faker.lorem.paragraphs(Math.ceil(Math.random() * 4)),
         date_created: faker.date.between('2020-01-01T00:00:00.000Z', '2023-01-01T00:00:00.000Z'),
         user_id: Math.ceil(Math.random() * RANDOMUSERS.length)
     };
@@ -44,7 +44,7 @@ const COMMENTS = [];
 
 function createRandomComment() {
     return {
-        comment_body: faker.lorem.paragraphs(1),
+        comment: faker.lorem.paragraphs(1),
         date_created: faker.date.between('2020-01-01T00:00:00.000Z', '2023-01-01T00:00:00.000Z'),
         user_id: Math.ceil(Math.random() * RANDOMUSERS.length),
         post_id: Math.ceil(Math.random() * POSTS.length)
