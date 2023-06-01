@@ -4,9 +4,8 @@ This is a seeding application for challenge 14, tech blog app, for the Edx full 
 
 ## How to Use
 
-Create a seeds directory in the Tech Blog root folder
 
-You can either clone this repo directly into that folder, or you can copy/paste seed.js and createSeeds.js into the folder.
+You can either clone this repo directly into your project, which will create your seeds folder, or you can copy/paste seed.js and createSeeds.js into a seeds folder that you make yourself.
 
 Add two scripts to the package.json
 
