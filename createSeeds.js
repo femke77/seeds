@@ -23,22 +23,24 @@ Array.from({ length: 10 }).forEach(() => {
 
 console.log(RANDOMUSERS)
 
-const POSTS = [];
+/////////////////////  USE NEW postdata.json /////////////////////
 
-function createRandomPost() {
-    return {
-        title: faker.lorem.words(Math.ceil(Math.random() * 5)),
-        content: faker.lorem.paragraphs(Math.ceil(Math.random() * 4)),
-        date_created: faker.date.between('2020-01-01T00:00:00.000Z', '2023-01-01T00:00:00.000Z'),
-        user_id: Math.ceil(Math.random() * RANDOMUSERS.length)
-    };
-}
+// const POSTS = [];
 
-Array.from({ length: 15 }).forEach(() => {
-    POSTS.push(createRandomPost());
-});
+// function createRandomPost() {
+//     return {
+//         title: faker.lorem.words(Math.ceil(Math.random() * 5)),
+//         content: faker.lorem.paragraphs(Math.ceil(Math.random() * 4)),
+//         date_created: faker.date.between('2020-01-01T00:00:00.000Z', '2023-01-01T00:00:00.000Z'),
+//         user_id: Math.ceil(Math.random() * RANDOMUSERS.length)
+//     };
+// }
 
-console.log(POSTS)
+// Array.from({ length: 15 }).forEach(() => {
+//     POSTS.push(createRandomPost());
+// });
+
+// console.log(POSTS)
 
 const COMMENTS = [];
 
@@ -57,6 +59,6 @@ Array.from({ length: 25 }).forEach(() => {
 
 console.log(COMMENTS)
 
-writeFileSync(path.join(process.cwd(), "seeds", "post_data.json"), JSON.stringify(POSTS, null, 2))
+// writeFileSync(path.join(process.cwd(), "seeds", "post_data.json"), JSON.stringify(POSTS, null, 2))
 writeFileSync(path.join(process.cwd(), "seeds", "user_data.json"), JSON.stringify(RANDOMUSERS, null, 2))
 writeFileSync(path.join(process.cwd(), "seeds", "comment_data.json"), JSON.stringify(COMMENTS, null, 2))
