@@ -2,6 +2,12 @@
 
 This is a seeding application for challenge 14, tech blog app, for the Edx full stack web development program.
 
+UPDATE: New seeds for the post are in the postdata.json file. They are much nicer than the lorem text produced by faker.js and can be used by simply by updating this code in seed.js
+
+```
+const postData = require('./postdata.json');
+```
+
 ## How to Use
 
 
@@ -26,6 +32,7 @@ Your post content needs to be DataTypes.TEXT to hold long posts. Do the same to 
 Add date_created to both Comment and Post model so that your create dates can be randomized. If you fall back on the Sequelize timestamp createdAt, all the dates for the blog posts and comments will be the date you ran the seed program. If that's ok with you, comment out the date_created properties in createSeeds.js
 
 In the createSeeds.js you may make any changes to the seeds that you want. If you want more users, increase the Array length, if you want different date ranges, you can adjust that as well - more paragraphs, less paragraphs, shorter/longer comments, anything you want can be changed.
+
 
 Run the seed program:
 
