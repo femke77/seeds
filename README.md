@@ -2,7 +2,7 @@
 
 This is a seeding application for challenge 14, tech blog app, for the Edx full stack web development program.
 
-UPDATE: New seeds for the post are in the postdata.json file. They are much nicer than the lorem text produced by faker.js and can be used by simply by updating this code in seed.js
+UPDATE: New seeds for the blog posts are in the postdata.json file. They are much nicer than the lorem text produced by faker.js and can be used by simply updating this code in seed.js:
 
 ```
 const postData = require('./postdata.json');
