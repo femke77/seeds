@@ -1,0 +1,23 @@
+{
+  "name": "techblog-seed",
+  "version": "1.0.0",
+  "description": "This is a seeding application for challenge 14, tech blog app, for the Edx full stack web development program.",
+  "main": "createSeeds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femke77/seeds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/femke77/seeds/issues"
+  },
+  "homepage": "https://github.com/femke77/seeds#readme",
+  "dependencies": {
+    "@faker-js/faker": "^8.2.0"
+  }
+}

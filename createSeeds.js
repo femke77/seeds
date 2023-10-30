@@ -1,6 +1,7 @@
 const { writeFileSync } = require("fs")
 const { faker } = require('@faker-js/faker');
 const path = require("path")
+const posts = require('./postdata.json')
 
 // FOR RUNNING INSIDE THE TECHBLOG CHALLENGE
 // npm i @faker-js/faker
@@ -49,7 +50,7 @@ function createRandomComment() {
         comment: faker.lorem.paragraphs(1),
         date_created: faker.date.between('2020-01-01T00:00:00.000Z', '2023-01-01T00:00:00.000Z'),
         user_id: Math.ceil(Math.random() * RANDOMUSERS.length),
-        post_id: Math.ceil(Math.random() * POSTS.length)
+        post_id: Math.ceil(Math.random() * posts.length)
     };
 }
 
