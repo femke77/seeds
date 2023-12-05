@@ -38,7 +38,8 @@
   {
     "title": "Hiking Adventures in the Rocky Mountains",
     "content": "Embark on an epic journey through the breathtaking landscapes of the Rocky Mountains. This blog post details some of the most rewarding hiking trails and outdoor experiences.",
-    "user_id": 8
+    "user_id": 8,
+    "date_created": "2021-03-01T14:39:42.050Z"
   },
   {
     "title": "Culinary Delights of Tuscany",
@@ -49,7 +50,8 @@
   {
     "title": "Tips for Sustainable Living in Urban Environments",
     "content": "Living sustainably in a bustling city can be challenging, but it's not impossible. Learn how to reduce your carbon footprint and make environmentally conscious choices while navigating city life.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut elit vel arcu congue gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Sed efficitur mi vitae est tristique dignissim. Fusce vestibulum tortor non enim volutpat, a volutpat sapien eleifend. Sed eu felis sit amet lorem posuere gravida. Integer lacinia varius purus, a vehicula eros cursus id. Curabitur eget quam quis neque ultricies euismod. Nulla facilisi.",
-    "user_id": 7
+    "user_id": 7,
+    "date_created": "2021-03-01T14:39:42.050Z"
   },
   {
     "title": "Tech Trends Shaping the Future",
@@ -78,7 +80,8 @@
   {
     "title": "Hiking Adventures in the Rocky Mountains",
     "content": "Embark on an epic journey through the breathtaking landscapes of the Rocky Mountains. This blog post details some of the most rewarding hiking trails and outdoor experiences.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut elit vel arcu congue gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Sed efficitur mi vitae est tristique dignissim. Fusce vestibulum tortor non enim volutpat, a volutpat sapien eleifend. Sed eu felis sit amet lorem posuere gravida. Integer lacinia varius purus, a vehicula eros cursus id. Curabitur eget quam quis neque ultricies euismod. Nulla facilisi.",
-    "user_id": 8
+    "user_id": 8,
+    "date_created": "2021-03-01T14:39:42.050Z"
   },
   {
     "title": "The Magic of Music Festivals",
@@ -101,7 +104,8 @@
   {
     "title": "Tech Trends Shaping the Future",
     "content": "Stay ahead of the curve with the latest technology trends. From artificial intelligence to augmented reality, this post explores the innovations that are shaping our future.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut elit vel arcu congue gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Sed efficitur mi vitae est tristique dignissim. Fusce vestibulum tortor non enim volutpat, a volutpat sapien eleifend. Sed eu felis sit amet lorem posuere gravida. Integer lacinia varius purus, a vehicula eros cursus id. Curabitur eget quam quis neque ultricies euismod. Nulla facilisi.",
-    "user_id": 3
+    "user_id": 3,
+    "date_created": "2021-03-01T14:39:42.050Z"
   },
   {
     "title": "The World of Science Fiction Literature",
